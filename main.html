@@ -3,60 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Apple Varieties Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Apple Varieties - Grocery Store</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
   <div class="container">
-    <div class="product">
-      <!-- Product Image Section -->
-      <div class="product__photo">
-        <div class="photo-container">
-          <div class="photo-main">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Red Apple">
-          </div>
-          <div class="photo-album">
-            <ul>
-              <li><img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Red Apple"></li>
-              <li><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Green_Apple.jpg" alt="Green Apple"></li>
-              <li><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Golden_Delicious.jpg" alt="Yellow Apple"></li>
-              <li><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Orange_apple.jpg" alt="Orange Apple"></li>
-            </ul>
-          </div>
+    
+    <div class="product__photo">
+      <div class="photo-container">
+        <div class="photo-main">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Red Apple">
         </div>
-      </div>
-
-      <!-- Product Info -->
-      <div class="product__info">
-        <h1>Fresh Farm Apples</h1>
-        <p class="price">$7.93 / kg</p>
-
-        <div class="variant">
-          <h3>VARIETIES</h3>
-          <div class="colors">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Green_Apple.jpg" alt="Green Apple">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Golden_Delicious.jpg" alt="Yellow Apple">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Orange_apple.jpg" alt="Orange Apple">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Red Apple">
-          </div>
-        </div>
-
-        <div class="description">
-          <h3>BENEFITS</h3>
+        <div class="photo-album">
           <ul>
-            <li>Rich in fiber and vitamins.</li>
-            <li>Boosts immunity and heart health.</li>
-            <li>Good for digestion and glowing skin.</li>
-            <li>100% fresh and organic from farms.</li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Honeycrisp.jpg" alt="Green Apple"></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Golden_Delicious.jpg" alt="Yellow Apple"></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Orange_apple.jpg" alt="Orange Apple"></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Red Apple"></li>
           </ul>
         </div>
-
-        <button class="add-to-cart">ADD TO CART</button>
       </div>
     </div>
-  </div>
 
-  <script src="script.js"></script>
+    <div class="product__details">
+      <h1>Fresh Farm Apples</h1>
+      <p class="price">$7.93 / kg</p>
+
+      <div class="variant">
+        <h3>Available Varieties:</h3>
+        <ul>
+          <li><b>Green:</b> <a href="#">Granny Smith</a></li>
+          <li><b>Yellow:</b> <a href="#">Golden Delicious</a></li>
+          <li><b>Orange:</b> <a href="#">Ambrosia</a></li>
+          <li><b>Red:</b> <a href="#">Honeycrisp</a></li>
+        </ul>
+      </div>
+
+      <div class="description">
+        <h3>BENEFITS</h3>
+        <p>
+          Apples are rich in antioxidants, dietary fiber, and vitamins. They promote heart health, 
+          support digestion, and help in maintaining healthy skin and immunity.
+        </p>
+      </div>
+
+      <button class="add-to-cart">ADD TO CART</button>
+    </div>
+  </div>
 </body>
 </html>

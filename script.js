@@ -1,13 +1,16 @@
-// Log message to console
-console.log("Apple Portfolio Loaded Successfully! 🍎");
+// Select the main photo image
+const mainPhoto = document.querySelector(".photo-main img");
 
-// Get main image and thumbnail images
-const mainImage = document.querySelector(".photo-main img");
-const thumbnails = document.querySelectorAll(".photo-album li img");
+// Select all small thumbnail images
+const thumbnails = document.querySelectorAll(".photo-album img");
 
-// When thumbnail clicked, update main image
+// Loop through all thumbnails and add a click event to each
 thumbnails.forEach(thumbnail => {
   thumbnail.addEventListener("click", () => {
-    mainImage.src = thumbnail.src;
+    // Change the main image source to the clicked thumbnail's source
+    mainPhoto.src = thumbnail.src;
   });
 });
+
+// Optional: Log a message to the console (to test if JS is working)
+console.log("Welcome to Accio Jobs - Apple Portfolio Page!");
